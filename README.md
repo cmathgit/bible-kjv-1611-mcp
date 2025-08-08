@@ -2,18 +2,24 @@
 
 ## MCP Server: Local KJV 1611 JSON (FastMCP)
 
-This repository also contains a Model Context Protocol (MCP) server that serves the local JSON bible files verbatim. The server exposes simple tools to list available books and return a specific book’s JSON as-is from disk.
+This repository also contains a Model Context Protocol (MCP) server that serves the local JSON bible files verbatim. The server exposes simple tools to list available books and return a specific book’s JSON as-is from disk. This is a fork of the original repository [Bible-kjv-1611](https://github.com/aruljohn/Bible-kjv-1611) with the addition of a MCP server.
 
 ### Requirements
 - Python 3.10+ (recommended 3.11 or newer)
 - `uv` package manager (see `https://docs.astral.sh/uv/getting-started/installation/`)
 
 
-1. Clone the repository and enter the project directory.
+#### Clone repositories and enter the project directory.
    ```
+   git clone https://github.com/aruljohn/Bible-kjv-1611
    git clone https://github.com/cmathgit/bible-kjv-1611-mcp
    cd bible-kjv-1611-mcp
    ```
+Copy files from the original repository by aruljohn to the new one.
+   ```
+   cp -r ../Bible-kjv-1611/json .
+   ```
+
 ### Installation with uv
 1. Initialize project:
    ```
@@ -34,7 +40,6 @@ This repository also contains a Model Context Protocol (MCP) server that serves 
      uv venv
      source .venv/bin/activate
      ```
-
 4. Add dependency:
    ```
    uv add mcp[cli]
