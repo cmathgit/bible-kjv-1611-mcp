@@ -17,7 +17,7 @@ This repository also contains a Model Context Protocol (MCP) server that serves 
    ```
 Copy files from the original repository by aruljohn to the new one.
    ```
-   cp -r ../Bible-kjv-1611/json .
+   cp -r ../Bible-kjv-1611/*.json .
    ```
 
 ### Installation with uv

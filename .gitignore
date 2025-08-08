@@ -16,3 +16,6 @@ main.py
 uv.lock
 pyproject.toml
 .python-version
+
+# bible 1611 json files
+*.json
