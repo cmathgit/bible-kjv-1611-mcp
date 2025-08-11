@@ -1,5 +1,5 @@
 # [Bible-kjv-1611-mcp](https://github.com/cmathgit/bible-kjv-1611-mcp)
-# Continue Code Block available at [Bible-KJV-1611-MCP]https://hub.continue.dev/cmathcontinue-dev/bible-kjv-1611-mcp)
+# Continue Code Block available at [Bible-KJV-1611-MCP](https://hub.continue.dev/cmathcontinue-dev/bible-kjv-1611-mcp)
 
 ## MCP Server: Local KJV 1611 JSON (FastMCP)
 
